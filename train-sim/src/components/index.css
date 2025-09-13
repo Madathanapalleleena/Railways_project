@@ -1,0 +1,26 @@
+body { font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; background:#f4f6f8; margin:0 }
+.app-root { max-width:1200px; margin:18px auto; padding:12px }
+.topbar { display:flex; justify-content:space-between; align-items:center; margin-bottom:10px }
+.topbar h1 { margin:0; font-size:20px }
+.top-controls { display:flex; gap:8px; align-items:center }
+.top-controls button { padding:6px 8px; border-radius:6px; border:1px solid #ccc; background:#fff; cursor:pointer }
+.main-grid { display:grid; grid-template-columns: 1fr 360px; gap:12px }
+.viz { background:#fff; padding:12px; border-radius:10px; box-shadow:0 6px 18px rgba(0,0,0,0.05) }
+.schematic-card { width:100%; overflow:auto }
+.side { display:flex; flex-direction:column; gap:12px }
+.panel { background:#fff; padding:10px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,0.04) }
+.train-list { display:flex; flex-direction:column; gap:8px }
+.train-row { display:flex; justify-content:space-between; align-items:center; padding:6px; border-radius:6px; border:1px solid #eee }
+.train-actions button { margin-left:6px }
+.kpi-panel { display:flex; gap:8px; margin-bottom:8px }
+.kpi { background:#fff; padding:8px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.03); flex:1; text-align:center }
+.kpi-num { font-size:18px; font-weight:700 }
+.log { max-height:220px; overflow:auto }
+.log-row { display:flex; gap:8px; padding:6px; border-bottom:1px solid #f0f0f0 }
+.log-time { color:#666; font-size:12px; width:90px }
+.train-popup { background:rgba(255,255,255,0.95); padding:6px; border-radius:6px; border:1px solid #ddd }
+.popup-actions button { margin-right:6px; padding:4px 6px }
+.timeline-row { position:relative; height:28px; background:#fafafa; border:1px solid #eee; border-radius:6px }
+.sched-dot { position:absolute; top:8px; width:8px; height:8px; border-radius:50%; background:#007bff }
+.pos-marker { position:absolute; top:4px; width:12px; height:20px; background:rgba(220,53,69,0.9); border-radius:3px }
+.footer { margin-top:12px; color:#666; font-size:13px; text-align:center }
